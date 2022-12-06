@@ -15,4 +15,4 @@ Since there are many factors that can impact the AQI of a region, one more facto
 
 ## Data Used and Data Sources
 
-    >*Air Quality Data - [Environmental Protection Agency website](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual)
+    Air Quality Data - Environmental Protection Agency website https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual
