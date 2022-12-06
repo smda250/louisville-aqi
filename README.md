@@ -12,3 +12,7 @@ These studies, such as [Maas 2006](https://jech.bmj.com/content/60/7/587) state 
 The map for this study focuses on the AQI based upon the ground-level ozone pollutants in Jefferson County, Kentucky. Ground-level ozone was chosen as the focal pollutant since the AQI is separated by pollutant, and ground-level ozone poses the greatest risk to human health out of the five major pollutants measured. The AQI for the ozone is then compared against the amount of greenspaces present nearby. 
 
 Since there are many factors that can impact the AQI of a region, one more factor is considered in the scope of this study. Nonpoint source pollution through transportation is the largest contributor to raising AQI values to unhealthy conditions. Due to this, major roads and railroads are mapped and compared against the regions of mapped AQI to compare with the amount of greenspace within the monitoring areas.
+
+## Data Used and Data Sources
+
+    >*Air Quality Data - [Environmental Protection Agency website](https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual)
