@@ -91,7 +91,7 @@
 		<!-- The division element contains an image element -->
 		<div id='map'>
 			<!-- The image element uses the the 'src' property to show an image on the page. -->
-			<img src="images/Module-01.jpeg" class="max-width-img" alt="This map displays the selected area of interest from OpenStreetMap">
+			<img src="AQImap.png" class="max-width-img" alt="This map displays the selected area of interest from OpenStreetMap">
 		</div>
 		<!-- <a href="">Link to high resolution version</a> -->
 
@@ -99,11 +99,37 @@
 
 		<h1>The Effect of Greenspaces on Air Quality: An Analysis of Jefferson County, Kentucky</h1>
 
-		<!-- Add you information below -->
+		<!-- Add your information below -->
 		<h2>Map authored by Sean Davis</h2>
-		<p>This map shows the campus of University of Kentucky. This location was selected because of familiarity with the area. This map was created using QGIS and the OpenStreetMap base layer. More information on OpenStreetMap is available from the <a href="https://www.openstreetmap.org" target="blank">OpenStreetMap page</a>. This page was created by Sean Davis for New Maps Plus. </p>
+		<p>This map shows the effects of greenspaces and transportation on the Air Quality Index of Jefferson County, Kentucky. 
+			The map is currently a work in progress. Currently shown on the map are the air quality monitoring stations, with a 4 km buffer zone generated around each station. 
+			This 4 km buffer zone shows the region for which each monitoring station reports AQI data. All greenspaces have been combined into one layer and clipped to the buffer zone,
+			and additionally railroads and major roadways have been combined into one layer and clipped to these zones. 
+			 </p>
 
+		<p>To complete this map, there is still remaining work to finish the full analysis. To complete this, the percentage of greenspace within each buffer zone will be calculated for
+			comparison between each monitoring station to analyze for a trend between greenspace and AQI values. The number of miles of major roadways and railways will summed for each buffer
+			zone as well and used for comparison and analysis for these stations. Once this is completed, a full conclusion can be delivered on the effects of greenspace on air quality, and the 
+			transportation results can help address any discrepancies or add to the discussion.  
+			 </p>
+	
+			 <p>Data sources:
+				<p>Air Quality Data - <a href=https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual>Environmental Protection Agency</a>.</p>
+				<p>Greenspaces Data - Louisville/Jefferson County Information Consortium via hub.arcgis.com 
+				</p>
+						<p><a href=https://hub.arcgis.com/datasets/LOJIC::jefferson-county-ky-recreation-areas-2019-1/about>Recreation areas</a></p>
+    					<p><a href=https://hub.arcgis.com/datasets/LOJIC::louisville-ky-metro-parks-2/about>Louisville Metro Parks</a></p>
+    					<p><a href=https://hub.arcgis.com/datasets/LOJIC::jefferson-county-ky-tree-canopy-areas-2019-1/about>Tree canopy</a></p>
+    					<p><a href=https://hub.arcgis.com/datasets/LOJIC::jefferson-county-ky-natural-areas-2/about>Natural areas</a></p>
+
+				Transportation Data - Louisville/Jefferson County Information Consortium via hub.arcgis.com
+    				<p><a href=https://hub.arcgis.com/datasets/LOJIC::jefferson-county-ky-railroads-2022/about>Railroads</a></p>
+    				<p><a href=https://hub.arcgis.com/datasets/LOJIC::louisville-metro-area-ky-major-roads/about>Major roads</a></p>
+				 </p>
+	
 		<ul>
+			<p>	This map was created using QGIS and the OpenStreetMap base layer. More information on OpenStreetMap is available from the <a href="https://www.openstreetmap.org" target="blank">OpenStreetMap page</a>. 
+				This page was created by Sean Davis for the New Maps Plus Program at the University of Kentucky. </p>
 			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
 			<li>See my projects on GitHub: <a href="https://github.com/smda250">Smda250</a></li>
 		</ul>

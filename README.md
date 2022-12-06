@@ -17,7 +17,7 @@ Since there are many factors that can impact the AQI of a region, one more facto
 
 Air Quality Data - Environmental Protection Agency website https://aqs.epa.gov/aqsweb/airdata/download_files.html#Annual
 
-Greenspaces Data - Louisville/Jefferson County Information Consortium vis hub.arcgis.com 
+Greenspaces Data - Louisville/Jefferson County Information Consortium via hub.arcgis.com 
 
     Recreation areas - https://hub.arcgis.com/datasets/LOJIC::jefferson-county-ky-recreation-areas-2019-1/about
 
@@ -27,7 +27,7 @@ Greenspaces Data - Louisville/Jefferson County Information Consortium vis hub.ar
 
     Natural areas - https://hub.arcgis.com/datasets/LOJIC::jefferson-county-ky-natural-areas-2/about
 
-Transportation Data - Louisville/Jefferson County Information Consortium vis hub.arcgis.com
+Transportation Data - Louisville/Jefferson County Information Consortium via hub.arcgis.com
 
     Railroads - https://hub.arcgis.com/datasets/LOJIC::jefferson-county-ky-railroads-2022/about
 
