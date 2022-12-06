@@ -1,2 +1,3 @@
-# louisville-aqi
-Map analysis of the trend between greenspaces and AQI in Louisville/Jefferson County Kentucky
+# The effect of greenspace on air quality: an analysis of Jefferson County, Kentucky
+
+
