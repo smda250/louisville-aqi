@@ -23,11 +23,9 @@ The air quality monitoring stations data was imported from the EPA Air Now datas
 This 4 km buffer zone shows the region for which each monitoring station reports AQI data. 
 All greenspace data file have been combined into one layer via the merge vector layers tool and clipped to the buffer zone for each data monitoring station. Railroads and major roadway data files have also been combined into one layer via the merge vector layers tool and clipped to these buffer zones. 
 		
-To complete this map, there is still remaining work to finish the full analysis. To complete this, the percentage of greenspace within each buffer zone will be calculated for
-comparison between each monitoring station to analyze for a trend between greenspace and AQI values. The number of miles of major roadways and railways will summed for each buffer
-zone as well and used for comparison and analysis for these stations. Once this is completed, a full conclusion can be delivered on the effects of greenspace on air quality, and the 
-transportation results can help address any discrepancies or add to the discussion.  
-
+Once the transportation data was combined to one layer, that layer was joined by nearest to the buffer layer to provide a spatial index for each polyline within the dataset. 
+From there the total miles of transportation within each buffer zone was calculated into total miles. This same process was applied to the greenspaces combined layer, but for the polygons within the layer. 
+The area of the greenspace polygons was then divided by the total area of each buffer zone to calculate the percentage greenspace for each monitoring station buffer zone. 
 ## Results
 
 
@@ -35,7 +33,7 @@ transportation results can help address any discrepancies or add to the discussi
 ## Conclusions
 
 
-Limitations for this study include the scope of AQI measured in this study are indicative for only one day of measurement. Other factors such as weather, holidays influencing transportation, and industries nearby such as factories on the western half of Louisville may cause this value to change daily and seasonally. Future studies would include a larger library of temporal data included to also monitor the impact of aforementioned environmental factors. 
+Limitations for this study include the scope of AQI measured in this study are indicative for only one day of measurement. Other factors such as weather, holidays influencing transportation, local waterways, and industries nearby such as factories on the western half of Louisville may cause this value to change daily and seasonally. Future studies would include a larger library of temporal data included to also monitor the impact of aforementioned environmental factors. 
 
 ## Data Used and Data Sources
 
