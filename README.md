@@ -29,10 +29,17 @@ The area of the greenspace polygons was then divided by the total area of each b
 
 ## Results
 
-
+The created map shows the air quality index measured for each station, along with the miles of transportation present within each 4km buffer zone, and the total percent of 
+each buffer zone that is considered a greenspace. The map shows that the lowest AQI (23) has the highest percentage area of greenspace (27.4%), and the lowest miles of transporation routes (42.3). Whereas the highest AQI (38), has the second lowest greenspace (15.3%) and the highest miles of transportation routes present (106.2).
 
 ## Conclusions
 
+The results of this study indicate that there is an inverse trend between greenspace and the AQI measured for each location. This trend shows that on average, higher percent
+area of greenspace within a region will result in a lower AQI value. The relationship between miles of transportation routes and the AQI was shown to be linear. Higher values of transportation leads to higher AQI values. 
+
+While the trend for greenspace and AQI is inverse, and transporation and AQI is linear, neither of these relationships perfectly follow these trends. Each relationship has an outlier
+station that is swapped, as is evident on the map. These outliers could be due to several environmental factors affecting this region, such as weather during the time of monitoring,
+industries located near these monitoring stations that may produce ozone that is not accounted for with solely transporation values, waterways nearby, and several other minute factors.Despite these outliers, there is still a strong correlation for both of these relationships, however, further studies and longer temporal datasets are required to increase the confidence value of these relationships.
 
 Limitations for this study include the scope of AQI measured in this study are indicative for only one day of measurement. Other factors such as weather, holidays influencing transportation, local waterways, and industries nearby such as factories on the western half of Louisville may cause this value to change daily and seasonally. Future studies would include a larger library of temporal data included to also monitor the impact of aforementioned environmental factors. 
 
