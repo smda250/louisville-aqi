@@ -26,6 +26,7 @@ All greenspace data file have been combined into one layer via the merge vector 
 Once the transportation data was combined to one layer, that layer was joined by nearest to the buffer layer to provide a spatial index for each polyline within the dataset. 
 From there the total miles of transportation within each buffer zone was calculated into total miles. This same process was applied to the greenspaces combined layer, but for the polygons within the layer. 
 The area of the greenspace polygons was then divided by the total area of each buffer zone to calculate the percentage greenspace for each monitoring station buffer zone. 
+
 ## Results
 
 
