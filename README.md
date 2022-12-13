@@ -4,6 +4,7 @@
 
 The map for this project can be viewed at https://smda250.github.io/louisville-aqi/
 
+
 ## Map Description and Background
 
 This map is created to produce a visual representation to support studies that indicate the presence of greenspaces have a postive influence on air quality of environments.
